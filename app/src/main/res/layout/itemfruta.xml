@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginBottom="10dp"
+    android:paddingLeft="8dp"
+    android:paddingRight="8dp">
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="wrap_content"
+        android:layout_height="133dp"
+        android:layout_weight="3"
+        app:srcCompat="@drawable/masanori_kohashi" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1.1"
+        android:orientation="vertical"
+        android:paddingLeft="8dp">
+
+        <TextView
+            android:id="@+id/tvNombre"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="TextView"
+            android:textSize="20dp"/>
+
+        <TextView
+            android:id="@+id/tvNombrejapo"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="TextView" />
+        <TextView
+            android:id="@+id/tvCarroNumero"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="numero carro"/>
+    </LinearLayout>
+</LinearLayout>
