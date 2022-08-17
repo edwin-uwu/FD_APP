@@ -16,7 +16,7 @@ import android.widget.Toast;
 public class MainActivity extends AppCompatActivity {
     String[] nombres = {"MASANORI KOHASHI","HOKUTO MATSUYAMA","KANTA","NAOTO SUENAGA","2"};
     String[] nombresJapones = {"小橋 正典","小橋 正典","小橋 正典","末永 直登","2"};
-    //float[] precios = {12,34,556};
+    //float[] precios = {12,34,556};XD
     int[] carnumero = {34,45,57,311,2};
     int[] fotos = {R.drawable.masanori_kohashi,R.drawable.hokuto_matsuyama,R.drawable.kanta,R.drawable.naoto_suenaga,R.drawable.naoto_suenaga};
     RecyclerView rcv1;
